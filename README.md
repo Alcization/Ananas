@@ -1,7 +1,7 @@
 # Web project
 # ANANAS
 
-1. git clone https://github.com/duongminhthuan2003/WebDev_241.git
+1. git clone https://github.com/Alcization/Ananas
 ```bash
 WEBDEV_241/
 ├── public/
