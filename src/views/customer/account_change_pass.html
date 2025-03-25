@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Be Vietnam Pro',sans-serif;
+            font-weight: normal;
+        }
+    </style>
+    <link href="/assets/css/output.css" rel="stylesheet">
+</head>
+<body class="min-h-full">
+<div class="flex-grow">
+    <div class="flex md:flex-row flex-col w-10/12 lg:w-9/12 mx-auto">
+        <div class="mt-16">
+
+        </div>
+        <div class="md:flex flex-col items-start mr-6 hidden md:min-w-fit mt-20">
+            <div class="text-2xl font-bold">TÀI KHOẢN</div>
+
+            <a class="px-4 mt-8">Thông tin <br class="hidden md:inline-block lg:hidden">tài khoản</a>
+
+            <div class="mt-8 bg-[#F15E2C] text-white font-semibold py-2 px-4 rounded-lg"><a>Phương thức <br class="hidden md:inline-block lg:hidden">thanh toán</a></div>
+            <a class="px-4 mt-8">Đơn hàng <br class="hidden md:inline-block lg:hidden">của tôi</a>
+            <a class="px-4 mt-8">Đổi mật khẩu</a>
+
+            <button type="button" class="mt-32 bg-[#FF4141] text-white font-semibold py-2 px-4 rounded-lg">Đăng xuất</button>
+        </div>
+
+        <!--Mobile Account navigation-->
+        <div class="md:hidden flex mb-8" id="account">
+            <svg xmlns="http://www.w3.org/2000/svg" class="my-auto mr-3" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none" id="arrow">
+                <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <div>
+                <p class="font-bold text-xl mb-2">THÔNG TIN TÀI KHOẢN</p>
+                <p>Phương thức thanh toán</p>
+            </div>
+        </div>
+
+        <div id="account_nav" class="border-2 border-gray-300 rounded-xl hidden flex-col duration-300 md:invisible bg-white shadow-md py-5 space-y-2 text-center absolute w-10/12 top-44 z-20">
+            <a class="py-3" href="#">Thông tin cá nhân</a>
+            <a class="py-3" href="#">Đơn hàng của tôi</a>
+            <a class="py-3" href="#">Phương thức thanh toán</a>
+            <a class="py-3" href="#">Đổi mật khẩu</a>
+            <button type="button" class="bg-[#FF4141] text-white w-11/12 mx-auto mt-3 py-3 rounded-md">Đăng xuất</button>
+        </div>
+        <!--End mobile account navigation-->
+
+        <form method="post" action="" class="w-full mt-20 mx-5">
+            <p>Mật khẩu cũ:</p>
+            <input type="password" class="border-2 rounded-lg py-2 px-5">
+            <p>Mật khẩu mới:</p>
+            <input type="password" class="border-2 rounded-lg py-2 px-5">
+            <p>Xác nhận mật khẩu mới:</p>
+            <input type="password" class="border-2 rounded-lg py-2 px-5">
+            <div class="flex mt-5 space-x-3">
+                <a href=""><button type="button" class="py-2 px-5  text-white bg-[#FF4141]  rounded-lg">Hủy</button></a>
+                <div class="flex-grow"></div>
+                <button type="reset" class="py-2 px-5 rounded-lg">Đặt lại</button>
+                <button type="submit" class="py-2 px-5 bg-green-600 text-white rounded-lg">Lưu</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

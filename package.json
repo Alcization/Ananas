@@ -1,0 +1,15 @@
+{
+  "name": "webdev_241",
+  "version": "1.0.0",
+  "description": "1. git clone https://github.com/duongminhthuan2003/WebDev_241.git\r ```bash\r WEBDEV_241/\r ├── public/\r │   ├── index.php            # File khởi động chính của ứng dụng\r │   ├── admin/               # Thư mục chứa giao diện và tài nguyên dành riêng cho Admin\r │   ├── customer/            # Thư mục chứa giao diện dành cho khách hàng\r │   └── assets/              # Thư mục chứa các tài nguyên tĩnh dùng chung\r │       ├── css/\r │       ├── js/\r │       └── images/\r ├── src/ \r │   ├── controllers/         # Chứa các controller xử lý logic ứng dụng\r │   │   ├── Customer/\r │   │   └── Admin/\r │   ├── models/              # Chứa các model để tương tác với cơ sở dữ liệu\r │   │   ├── Customer/\r │   │   └── Admin/\r │   └── views/               # Chứa các view cho từng phần của ứng dụng\r │       ├── Customer/\r │       ├── Admin/\r │       └── Layout/\r ├── config/ \r │   └── config.php           # File cấu hình cơ sở dữ liệu và cài đặt chung\r ├── database/                # Thư mục chứa các file SQL tạo bảng và seed dữ liệu\r ├── routes.php               # File quản lý các URL của ứng dụng\r └── .env                     # File chứa thông tin bảo mật (như mật khẩu cơ sở dữ liệu)\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}

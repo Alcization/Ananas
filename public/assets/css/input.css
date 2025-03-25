@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ML_text_cam {
+    @apply text-[#F15E2C];
+}
+
+.ML_button {
+    @apply bg-Cam_Ananas text-white font-medium px-2 py-2 rounded hover:scale-105 hover:shadow-md hover:bg-gradient-to-r hover:from-[#FFAE5C] hover:via-[#F15E2C] hover:to-[#F15E2C] focus:outline-none transition-all duration-300 ease-in-out;
+}
+
+.ML_hover_header {
+    @apply cursor-pointer relative after:absolute after:bottom-0 after:left-0
+    after:bg-slate-900 after:h-0.5 after:w-full after:origin-center after:scale-x-0 hover:after:scale-x-100 
+    after:transition-transform after:ease-out after:duration-500 font-BeVietnam text-sm;
+}
+
+.ML_button_select {
+    @apply border shadow-sm bg-white text-black hover:bg-gray-200 hover:shadow-sm p-2 rounded w-36 hover:scale-105;
+}
+
+.MT_button_header {
+    @apply text-[13px] bg-gradient-to-r from-[#F15E2C] from-0% to-[#F15E2C] to-100% text-white rounded-lg py-2 px-4 mr-5 hidden md:block
+    hover:bg-gradient-to-r hover:from-[#fca144] hover:from-5% hover:to-[#FF6530] hover:to-30% hover:shadow-md hover:shadow-[rgba(241,94,44,0.5)] hover:scale-105 duration-300;
+}
