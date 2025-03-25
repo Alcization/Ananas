@@ -1,7 +1,6 @@
 # Web project
 # ANANAS
 
-1. git clone https://github.com/Alcization/Ananas
 ```bash
 WEBDEV_241/
 ├── public/
@@ -28,5 +27,3 @@ WEBDEV_241/
 ├── .env                     # File chứa thông tin bảo mật (như mật khẩu cơ sở dữ liệu)
 └── vendor
 ```
-
-public -> controller -> model -> view
