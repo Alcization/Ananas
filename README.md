@@ -2,7 +2,7 @@
 # ANANAS
 
 ```bash
-WEBDEV_241/
+Ananas/
 ├── public/
 │   ├── index.php            # File khởi động chính của ứng dụng
 │   └── assets/              # Thư mục chứa các tài nguyên tĩnh dùng chung
